@@ -1,0 +1,23 @@
+//--------    FILE: remus.bhv   -------------
+
+initialize   DEPLOY = true
+initialize   RETURN = false
+initialize   mission = true
+
+//----------------------------------------------
+
+Behavior = BHV_Waypoint
+{
+  name      = friendly
+  pwt       = 100
+  condition = (mission==true)
+  speed = 1.0
+  perpetual = true
+  updates   = NEW_POINTS
+  endflag = shipmission=true
+  endflag = mission=false
+  visual_hints = nextpt_color=red, nextpt_lcolor=khaki
+  visual_hints = edge_color=khaki, vertex_color=white
+  visual_hints = edge_size=1, vertex_size=4
+
+}

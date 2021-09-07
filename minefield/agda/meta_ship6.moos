@@ -1,0 +1,67 @@
+ServerHost = localhost
+ServerPort = $(VPORT)
+Simulator  = true
+
+// Community name IS the vehicle name
+Community  = $(VNAME)
+
+
+#include plug_origin_warp.moos
+
+//------------------------------------------------------------
+Processconfig = ANTLER
+{
+  MSBetweenLaunches = 300
+
+  Run = MOOSDB             @ NewConsole = false
+  Run = uSimMarine         @ NewConsole = false
+  Run = pMarinePID         @ NewConsole = false
+  Run = pHelmIvP           @ NewConsole = false
+  Run = uProcessWatch      @ NewConsole = false
+  Run = prelocate          @ NewConsole = false
+  Run = pShare             @ NewConsole = false
+  Run = pHostInfo          @ NewConsole = false
+  Run = uFldNodeBroker     @ NewConsole = false
+  Run = uFldHazardMgr      @ NewConsole = false
+  Run = pmidca            @ NewConsole = false
+}
+
+
+ProcessConfig = prelocate
+{
+  AppTick   = 1
+  CommsTick = 1
+}
+
+ProcessConfig = pmidca
+{
+  AppTick   = 1
+  CommsTick = 1
+  publish_ip = 127.0.0.1:5006
+  subscribe_ip = 127.0.0.1:6006
+}
+
+//--------------------------------------------------
+// uFldHazardMgr configuration block from plugin
+
+ProcessConfig = uFldHazardMgr
+{
+  AppTick   = 2
+  CommsTick = 2
+  swath_width = 5
+  sensor_pd   = 1
+  show_swath = false
+  swath_length = 4
+  report_name = $(VNAME)
+}
+
+
+#include plug_uFldNodeBroker.moos
+#include plug_pShare.moos
+#include plug_pHostInfo.moos
+
+#include plug_uSimMarine.moos
+#include plug_pHelmIvP.moos
+#include plug_pMarinePID.moos
+#include plug_pNodeReporter.moos
+#include plug_uProcessWatch.moos

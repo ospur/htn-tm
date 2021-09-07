@@ -1,0 +1,511 @@
+          Hazard File: hazards6.txt
+Launching remus MOOS Community (WARP=7) 
+Launching Altmark MOOS Community (WARP=7) 
+Launching Astron MOOS Community (WARP=7) 
+Launching USS-Adhara MOOS Community (WARP=7) 
+Launching USS-Alderamin MOOS Community (WARP=7) 
+Launching SS-AmericanVictory MOOS Community (WARP=7) 
+Launching MS-Antenor MOOS Community (WARP=7) 
+Launching USS-Aludra MOOS Community (WARP=7) 
+Launching USS-Albireo MOOS Community (WARP=7) 
+Launching USS-Alkes MOOS Community (WARP=7) 
+Launching USS-Ara MOOS Community (WARP=7) 
+Launching fisher1 MOOS Community (WARP=7) 
+Launching fisher2 MOOS Community (WARP=7) 
+Launching fisher3 MOOS Community (WARP=7) 
+Launching fisher4 MOOS Community (WARP=7) 
+Launching  MOOS Community (WARP=7) 
+Done 
+[32muMAC launching as uMAC_7010
+[0m
+uMAC_7010 thread spawned
+starting uMAC_7010 thread
+
+-------------- moos connect ----------------------
+  contacting a MOOS server localhost:9000 -  try 00001   contacting a MOOS server localhost:9000 -  try 00002 
+  Handshaking as uMAC_7010              [1;32m[ok]
+[0m  DB reports async support is           [1;32m[on]
+[0m  DB is running on                      [1;32mway-Inspiron-7472
+[0m  Timing skew estimation is             [33m[off] (not needed)
+[0m--------------------------------------------------
+
+uMAC_7010 is Running:
+ |-Baseline AppTick   @ 5.0 Hz
+ |--Comms is Full Duplex and Asynchronous
+ -Iterate Mode 0 :
+   |-Regular iterate and message delivery at 5 Hz
+	|-Time Warp @ 7.0 
+	|-Time Warp delay @ 2.8 ms 
+
+
+
+
+
+
+
+
+
+===================================================================
+uMAC_7010:  Nodes (0)                                    (1) [7;32mEVENTS[0m
+===================================================================
+AppCasts Recd: 0
+
+ID  Node Name  Helm  Recd  Config    Run     
+               Mode        Warnings  Warnings
+--  ---------  ----  ----  --------  --------
+
+
+
+
+
+
+
+===================================================================
+uMAC_7010:  Nodes (1)                                    (2) [7;32mEVENTS[0m
+===================================================================
+AppCasts Recd: 2
+
+ID  Node Name  Helm   Recd  Config    Run     
+               Mode         Warnings  Warnings
+--  ---------  -----  ----  --------  --------
+0   shoreside  HMODE  2     [7;32m 0 [0m       [7;32m 0 [0m     
+
+
+
+
+
+
+
+===================================================================
+uMAC_7010:  Nodes (1)                                    (3) [7;32mEVENTS[0m
+===================================================================
+AppCasts Recd: 5
+
+ID  Node Name  Helm   Recd  Config    Run     
+               Mode         Warnings  Warnings
+--  ---------  -----  ----  --------  --------
+0   shoreside  HMODE  5     [7;32m 0 [0m       [7;32m 0 [0m     
+
+
+
+
+
+
+
+===================================================================
+uMAC_7010:  Nodes (2)                                    (4) [7;32mEVENTS[0m
+===================================================================
+AppCasts Recd: 17
+
+ID  Node Name  Helm   Recd  Config    Run     
+               Mode         Warnings  Warnings
+--  ---------  -----  ----  --------  --------
+0   shoreside  HMODE  9     [7;32m 0 [0m       [7;32m 0 [0m     
+a   remus      HMODE  8     [7;32m 0 [0m       [7;32m 0 [0m     
+
+
+
+
+
+
+
+===================================================================
+uMAC_7010:  Nodes (16)                                   (5) [7;32mEVENTS[0m
+===================================================================
+AppCasts Recd: 103
+
+ID  Node Name           Helm   Recd  Config    Run     
+                        Mode         Warnings  Warnings
+--  ------------------  -----  ----  --------  --------
+0   shoreside           HMODE  16    [7;32m 0 [0m       [7;32m 0 [0m     
+a   remus               HMODE  16    [7;32m 0 [0m       [7;32m 0 [0m     
+b   USS-Alderamin       HMODE  8     [7;32m 0 [0m       [7;32m 0 [0m     
+c   MS-Antenor          HMODE  9     [7;32m 0 [0m       [7;32m 0 [0m     
+d   fisher1             HMODE  7     [7;32m 0 [0m       [7;32m 0 [0m     
+f   USS-Albireo         HMODE  6     [7;32m 0 [0m       [7;32m 0 [0m     
+g   SS-AmericanVictory  HMODE  6     [7;32m 0 [0m       [7;32m 0 [0m     
+i   Astron              HMODE  5     [7;32m 0 [0m       [7;32m 0 [0m     
+j   fisher4             HMODE  7     [7;32m 0 [0m       [7;32m 0 [0m     
+k   USS-Ara             HMODE  6     [7;32m 0 [0m       [7;32m 0 [0m     
+l   fisher3             HMODE  6     [7;32m 0 [0m       [7;32m 0 [0m     
+m   USS-Adhara          HMODE  5     [7;32m 0 [0m       [7;32m 0 [0m     
+o   USS-Aludra          HMODE  2     [7;32m 0 [0m       [7;32m 0 [0m     
+q   USS-Alkes           HMODE  2     [7;32m 0 [0m       [7;32m 0 [0m     
+s   Altmark             HMODE  1     [7;32m 0 [0m       [7;32m 0 [0m     
+t   fisher2             HMODE  1     [7;32m 0 [0m       [7;32m 0 [0m     
+
+
+
+
+
+
+
+===================================================================
+uMAC_7010:  Nodes (16)                                   (6) [7;32mEVENTS[0m
+===================================================================
+AppCasts Recd: 222
+
+ID  Node Name           Helm   Recd  Config    Run     
+                        Mode         Warnings  Warnings
+--  ------------------  -----  ----  --------  --------
+0   shoreside           HMODE  20    [7;32m 0 [0m       [7;32m 0 [0m     
+a   remus               HMODE  27    [7;32m 0 [0m       [7;32m 0 [0m     
+b   USS-Alderamin       HMODE  17    [7;32m 0 [0m       [7;32m 0 [0m     
+c   MS-Antenor          HMODE  17    [7;32m 0 [0m       [7;32m 0 [0m     
+d   fisher1             HMODE  14    [7;32m 0 [0m       [7;32m 0 [0m     
+f   USS-Albireo         HMODE  13    [7;32m 0 [0m       [7;32m 0 [0m     
+g   SS-AmericanVictory  HMODE  13    [7;32m 0 [0m       [7;32m 0 [0m     
+i   Astron              HMODE  12    [7;32m 0 [0m       [7;32m 0 [0m     
+j   fisher4             HMODE  15    [7;32m 0 [0m       [7;32m 0 [0m     
+k   USS-Ara             HMODE  13    [7;32m 0 [0m       [7;32m 0 [0m     
+l   fisher3             HMODE  13    [7;32m 0 [0m       [7;32m 0 [0m     
+m   USS-Adhara          HMODE  12    [7;32m 0 [0m       [7;32m 0 [0m     
+o   USS-Aludra          HMODE  10    [7;32m 0 [0m       [7;32m 0 [0m     
+q   USS-Alkes           HMODE  10    [7;32m 0 [0m       [7;32m 0 [0m     
+s   Altmark             HMODE  8     [7;32m 0 [0m       [7;32m 0 [0m     
+t   fisher2             HMODE  8     [7;32m 0 [0m       [7;32m 0 [0m     
+
+
+
+
+
+
+
+===================================================================
+uMAC_7010:  Nodes (16)                                   (7) [7;32mEVENTS[0m
+===================================================================
+AppCasts Recd: 356
+
+ID  Node Name           Helm   Recd  Config    Run     
+                        Mode         Warnings  Warnings
+--  ------------------  -----  ----  --------  --------
+0   shoreside           HMODE  28    [7;32m 0 [0m       [7;32m 0 [0m     
+a   remus               HMODE  36    [7;32m 0 [0m       [7;32m 0 [0m     
+b   USS-Alderamin       HMODE  23    [7;32m 0 [0m       [7;32m 0 [0m     
+c   MS-Antenor          HMODE  24    [7;32m 0 [0m       [7;32m 0 [0m     
+d   fisher1             HMODE  23    [7;32m 0 [0m       [7;32m 0 [0m     
+f   USS-Albireo         HMODE  22    [7;32m 0 [0m       [7;32m 0 [0m     
+g   SS-AmericanVictory  HMODE  22    [7;32m 0 [0m       [7;32m 0 [0m     
+i   Astron              HMODE  21    [7;32m 0 [0m       [7;32m 0 [0m     
+j   fisher4             HMODE  23    [7;32m 0 [0m       [7;32m 0 [0m     
+k   USS-Ara             HMODE  22    [7;32m 0 [0m       [7;32m 0 [0m     
+l   fisher3             HMODE  22    [7;32m 0 [0m       [7;32m 0 [0m     
+m   USS-Adhara          HMODE  21    [7;32m 0 [0m       [7;32m 0 [0m     
+o   USS-Aludra          HMODE  17    [7;32m 0 [0m       [7;32m 0 [0m     
+q   USS-Alkes           HMODE  18    [7;32m 0 [0m       [7;32m 0 [0m     
+s   Altmark             HMODE  17    [7;32m 0 [0m       [7;32m 0 [0m     
+t   fisher2             HMODE  17    [7;32m 0 [0m       [7;32m 0 [0m     
+
+
+
+
+
+
+
+===================================================================
+uMAC_7010:  Nodes (16)                                   (8) [7;32mEVENTS[0m
+===================================================================
+AppCasts Recd: 484
+
+ID  Node Name           Helm   Recd  Config    Run     
+                        Mode         Warnings  Warnings
+--  ------------------  -----  ----  --------  --------
+0   shoreside           HMODE  32    [7;32m 0 [0m       [7;32m 0 [0m     
+a   remus               HMODE  47    [7;32m 0 [0m       [7;32m 0 [0m     
+b   USS-Alderamin       HMODE  33    [7;32m 0 [0m       [7;32m 0 [0m     
+c   MS-Antenor          HMODE  33    [7;32m 0 [0m       [7;32m 0 [0m     
+d   fisher1             HMODE  31    [7;32m 0 [0m       [7;32m 0 [0m     
+f   USS-Albireo         HMODE  30    [7;32m 0 [0m       [7;32m 0 [0m     
+g   SS-AmericanVictory  HMODE  30    [7;32m 0 [0m       [7;32m 0 [0m     
+i   Astron              HMODE  29    [7;32m 0 [0m       [7;32m 0 [0m     
+j   fisher4             HMODE  31    [7;32m 0 [0m       [7;32m 0 [0m     
+k   USS-Ara             HMODE  29    [7;32m 0 [0m       [7;32m 0 [0m     
+l   fisher3             HMODE  30    [7;32m 0 [0m       [7;32m 0 [0m     
+m   USS-Adhara          HMODE  29    [7;32m 0 [0m       [7;32m 0 [0m     
+o   USS-Aludra          HMODE  24    [7;32m 0 [0m       [7;32m 0 [0m     
+q   USS-Alkes           HMODE  26    [7;32m 0 [0m       [7;32m 0 [0m     
+s   Altmark             HMODE  25    [7;32m 0 [0m       [7;32m 0 [0m     
+t   fisher2             HMODE  25    [7;32m 0 [0m       [7;32m 0 [0m     
+
+
+
+
+
+
+
+===================================================================
+uMAC_7010:  Nodes (16)                                   (9) [7;32mEVENTS[0m
+===================================================================
+AppCasts Recd: 489
+
+ID  Node Name           Helm   Recd  Config    Run     
+                        Mode         Warnings  Warnings
+--  ------------------  -----  ----  --------  --------
+0   shoreside           HMODE  33    [7;32m 0 [0m       [7;32m 0 [0m     
+a   remus               HMODE  47    [7;32m 0 [0m       [7;32m 0 [0m     
+b   USS-Alderamin       HMODE  33    [7;32m 0 [0m       [7;32m 0 [0m     
+c   MS-Antenor          HMODE  33    [7;32m 0 [0m       [7;32m 0 [0m     
+d   fisher1             HMODE  31    [7;32m 0 [0m       [7;32m 0 [0m     
+f   USS-Albireo         HMODE  30    [7;32m 0 [0m       [7;32m 0 [0m     
+g   SS-AmericanVictory  HMODE  30    [7;32m 0 [0m       [7;32m 0 [0m     
+i   Astron              HMODE  29    [7;32m 0 [0m       [7;32m 0 [0m     
+j   fisher4             HMODE  32    [7;32m 0 [0m       [7;32m 0 [0m     
+k   USS-Ara             HMODE  30    [7;32m 0 [0m       [7;32m 0 [0m     
+l   fisher3             HMODE  30    [7;32m 0 [0m       [7;32m 0 [0m     
+m   USS-Adhara          HMODE  29    [7;32m 0 [0m       [7;32m 0 [0m     
+o   USS-Aludra          HMODE  26    [7;32m 0 [0m       [7;32m 0 [0m     
+q   USS-Alkes           HMODE  26    [7;32m 0 [0m       [7;32m 0 [0m     
+s   Altmark             HMODE  25    [7;32m 0 [0m       [7;32m 0 [0m     
+t   fisher2             HMODE  25    [7;32m 0 [0m       [7;32m 0 [0m     
+
+
+
+
+
+
+
+===================================================================
+uMAC_7010:  Nodes (16)                                  (10) [7;32mEVENTS[0m
+===================================================================
+AppCasts Recd: 490
+
+ID  Node Name           Helm   Recd  Config    Run     
+                        Mode         Warnings  Warnings
+--  ------------------  -----  ----  --------  --------
+0   shoreside           HMODE  34    [7;32m 0 [0m       [7;32m 0 [0m     
+a   remus               HMODE  47    [7;32m 0 [0m       [7;32m 0 [0m     
+b   USS-Alderamin       HMODE  33    [7;32m 0 [0m       [7;32m 0 [0m     
+c   MS-Antenor          HMODE  33    [7;32m 0 [0m       [7;32m 0 [0m     
+d   fisher1             HMODE  31    [7;32m 0 [0m       [7;32m 0 [0m     
+f   USS-Albireo         HMODE  30    [7;32m 0 [0m       [7;32m 0 [0m     
+g   SS-AmericanVictory  HMODE  30    [7;32m 0 [0m       [7;32m 0 [0m     
+i   Astron              HMODE  29    [7;32m 0 [0m       [7;32m 0 [0m     
+j   fisher4             HMODE  32    [7;32m 0 [0m       [7;32m 0 [0m     
+k   USS-Ara             HMODE  30    [7;32m 0 [0m       [7;32m 0 [0m     
+l   fisher3             HMODE  30    [7;32m 0 [0m       [7;32m 0 [0m     
+m   USS-Adhara          HMODE  29    [7;32m 0 [0m       [7;32m 0 [0m     
+o   USS-Aludra          HMODE  26    [7;32m 0 [0m       [7;32m 0 [0m     
+q   USS-Alkes           HMODE  26    [7;32m 0 [0m       [7;32m 0 [0m     
+s   Altmark             HMODE  25    [7;32m 0 [0m       [7;32m 0 [0m     
+t   fisher2             HMODE  25    [7;32m 0 [0m       [7;32m 0 [0m     
+./launch.sh: line 312: 86848 Killed                  uMAC targ_shoreside.moos
+Killing all processes ... 
+the moos is dead
+iActuationRobotX: no process found
+iVelodyne: no process found
+pFeatureTracker: no process found
+pFeatureVision: no process found
+pGenWaypoint: no process found
+pManageAcousticVars: no process found
+pMarinePIDWAMV: no process found
+pObstacleMgr: no process found
+pTask2: no process found
+pTask3: no process found
+pTask4: no process found
+pTask5: no process found
+uSimAcousticOutput: no process found
+uSimMarineWAMV: no process found
+pPoseKeep: no process found
+uTaskManager: no process found
+pBearingTracker: no process found
+pCBF: no process found
+pMergeArrayData: no process found
+iGPS_KFAC: no process found
+iActuationRobot: no process found
+pDeadManPost: no process found
+pTask5: no process found
+ddConsoleApp: no process found
+pTask1: no process found
+iM200: no process found
+iActuationKFAC: no process found
+pLocalizePinger: no process found
+turnview: no process found
+MOOSDB: no process found
+iRemote: no process found
+MOOSRemote: no process found
+iGPS: no process found
+iGPSMonitor: no process found
+pNav: no process found
+pHelm: no process found
+pHelmIvP: no process found
+pMarineViewer: no process found
+iMarineSim: no process found
+uSimMarine: no process found
+pLogger: no process found
+iPWMController: no process found
+MOOSDump: no process found
+pAntler: no process found
+umm: no process found
+iINS: no process found
+iDepth: no process found
+pScheduler: no process found
+pThermoTrack: no process found
+pNaFCon: no process found
+pSearch: no process found
+pHuxley: no process found
+pMessageSim: no process found
+pBeamform: no process found
+uTermCommand: no process found
+pBearingTrack: no process found
+uMissionTester: no process found
+pTestBut: no process found
+pTestBug2: no process found
+pMOOSBridge: no process found
+iVSA: no process found
+iCTD: no process found
+iCTDSBE49: no process found
+pBearingsSim: no process found
+iPNICompass: no process found
+iMetaCompass: no process found
+iHeadingMonitor: no process found
+pAEL: no process found
+iWifi: no process found
+p1BTracker: no process found
+p2BTracker: no process found
+pBearings: no process found
+uMS: no process found
+pTarget: no process found
+pRedirect: no process found
+pLoiterControl: no process found
+pTransponderAIS: no process found
+uMVS: no process found
+pMarinePID: no process found
+uTMS: no process found
+uMVS_Bluefin: no process found
+pEchoVar: no process found
+pDeployHandler: no process found
+pTrafficControl: no process found
+pShipsideViewer: no process found
+uRepeater: no process found
+uXMS: no process found
+pViewerRelay: no process found
+uHelmScope: no process found
+pClusterPriority: no process found
+zLoggerNG: no process found
+iMicroModem: no process found
+pRouter: no process found
+pFramer: no process found
+pMessageSim: no process found
+pCSVLogger: no process found
+pBearings_VSA: no process found
+pEchoVar: no process found
+pTrackQuality: no process found
+p1HTracker: no process found
+pGPSSim: no process found
+uBathy: no process found
+uCtdSim2: no process found
+pTargetOpportunity: no process found
+pBearings_DURIP: no process found
+uProcessWatch: no process found
+uPlayBack: no process found
+pSubIndex: no process found
+pBearings_GENERIC: no process found
+pTargetSim: no process found
+pMBTracker: no process found
+zLoggerNG: no process found
+iModemSim: no process found
+pFunctionSender: no process found
+uFunctionViewer: no process found
+uFunctionVis: no process found
+uSimBeaconRange: no process found
+uSimCurrent: no process found
+pBasicContactMgr: no process found
+uSimActiveSonar: no process found
+bngview: no process found
+pConvexHull: no process found
+pObstacleMgr: no process found
+pObstacleManager: no process found
+pSensorSim: no process found
+pArtifactMapper: no process found
+pNoiseSim: no process found
+uNafconSplitter: no process found
+pBlast: no process found
+pSweepLines: no process found
+pNSWCPC: no process found
+pXRelay: no process found
+pXRelayTest: no process found
+alogview: no process found
+pAcommsHandler: no process found
+pCTDCodec: no process found
+pBTRCodec: no process found
+iDAS: no process found
+iOEX: no process found
+pGateway: no process found
+pAcommsPoller: no process found
+pArraySim: no process found
+pSimpleAcousticSim: no process found
+geoview: no process found
+pMultiTargetSim: no process found
+pMultiAcousticSim: no process found
+iOS5000: no process found
+pGeneralCodec: no process found
+pCBF: no process found
+pBTracker: no process found
+pTrackMonitor: no process found
+uTimerScript: no process found
+pDTSP: no process found
+pTallyomatic: no process found
+pNodeReporter: no process found
+iCommStack: no process found
+pMissionCtl: no process found
+iDSP: no process found
+pNotDTSP: no process found
+pBoundingCircle: no process found
+pRIDManager: no process found
+uLogView: no process found
+uLogViewHelm: no process found
+uLogViewIPF: no process found
+pFooBar: no process found
+pFoobar: no process found
+pNotDTSP: no process found
+pBoundingCircle: no process found
+pRIDManager: no process found
+iKayakControlBoard: no process found
+pFleetControl: no process found
+uFldScope: no process found
+uFldContactRangeSensor: no process found
+uFldPathCheck: no process found
+uFldNodeComms: no process found
+pSearchGrid: no process found
+pHostInfo: no process found
+uFldShoreBroker: no process found
+uFldNodeBroker: no process found
+uFldBeaconRangeSensor: no process found
+uFldHazardSensor: no process found
+uFldMessageHandler: no process found
+pGenPath: no process found
+pPointAssign: no process found
+uFldHazardMetric: no process found
+pHandleSensorData: no process found
+uFldCTDSensor: no process found
+pFrontGridRender: no process found
+uPlotViewer: no process found
+uMAC: no process found
+pShare: no process found
+uFldGenericSensor: no process found
+uFldHazardMgr: no process found
+pGradeFrontEstimate: no process found
+pFrontEstimate: no process found
+pParticle: no process found
+uFldContactRangeSensorHP: no process found
+pUUVPath: no process found
+pWifiCheck: no process found
+uFldMessageSourcer: no process found
+pRangeSensorHandler: no process found
+pHunterPrey: no process found
+camera_example: no process found
+camera_example_server: no process found
+camera_example_viewer: no process found
+iHuxley: no process found
+uFldCollisionDetect: no process found
+iSay: no process found
+uLoadWatch: no process found
+pPolePath: no process found
+sedit: no process found
+pEvalLoiter: no process found
+uSpeechRec: no process found
+uDialogManager: no process found
+pAntler: no process found
+pLogger: no process found
+Done - Killed all MOOS-Related Processes.....
+Done killing processes.   

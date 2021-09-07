@@ -1,0 +1,21 @@
+//--------    FILE: remus.bhv   -------------
+
+initialize   DEPLOY = true
+initialize   RETURN = false
+
+//----------------------------------------------
+
+Behavior = BHV_Waypoint
+{
+  name      = fisher
+  pwt       = 100
+  condition = (DEPLOY==true)
+  speed = 0.5
+  points = pts={109,65:109,45:109,25:109,5:109,-15:109,-35:109,-55:109,-75:109,-95:109,-115:109,-135:109,-155:109,-175:109,-195:109,-215:109,-235:109,-255:109,-275:109,-295:109,-315:}
+  perpetual = true
+  updates   = fisher2
+  visual_hints = nextpt_color=red, nextpt_lcolor=khaki
+  visual_hints = edge_color=khaki, vertex_color=white
+  visual_hints = edge_size=1, vertex_size=4
+
+}

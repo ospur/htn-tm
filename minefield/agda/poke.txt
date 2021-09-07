@@ -1,0 +1,41 @@
+Mission File was provided: meta_shoreside.moos
+
+-------------- moos connect ----------------------
+  contacting a MOOS server localhost:9000 -  try 00001 
+  Handshaking as uPokeDB                [1;32m[ok]
+[0m  DB reports async support is           [1;32m[on]
+[0m  DB is running on                      [1;32mway-Inspiron-7472
+[0m  Timing skew estimation is             [33m[off] (not needed)
+[0m--------------------------------------------------
+
+uPokeDB is Running:
+ |-Baseline AppTick   @ 5.0 Hz
+ |--Comms is Full Duplex and Asynchronous
+ -Iterate Mode 0 :
+   |-Regular iterate and message delivery at 5 Hz
+
+
+
+
+PRIOR to Poking the MOOSDB 
+  VarName               (S)ource    (T)ime      VarValue
+  ----------------      ----------  ----------   -------------
+  DEPLOY                                         
+  MOOS_MANUAL_OVERIDE                            
+
+
+AFTER Poking the MOOSDB 
+Exception in DoReading() : remote side closed....
+
+-------------- moos connect ----------------------
+  contacting a MOOS server localhost:9000 -  try 00001 
+  Handshaking as uPokeDB                [1;32m[ok]
+[0m  DB reports async support is           [1;32m[on]
+[0m  DB is running on                      [1;32mway-Inspiron-7472
+[0m  Timing skew estimation is             [33m[off] (not needed)
+[0m--------------------------------------------------
+
+  VarName               (S)ource    (T)ime      VarValue
+  ----------------      ----------  ----------   -------------
+  DEPLOY                 uPokeDB     39.52       "true"
+  MOOS_MANUAL_OVERIDE    uPokeDB     39.52       "false"
